@@ -19,7 +19,7 @@ public class anagrams {
         public static void main(String ar[]){
         String str1 = new String("care");
         String str2 = new String("race");
-        boolean result  =anagramCheck(str1,str2);
+        boolean result  = anagramCheck(str1,str2);
         System.out.print((result)?"Anagrams":"Not Anagrams");
     }
 }
